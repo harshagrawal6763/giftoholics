@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "687867635505",
+    "firebase_url": "https://giftoholics-34ed8.firebaseio.com",
+    "project_id": "giftoholics-34ed8",
+    "storage_bucket": "giftoholics-34ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687867635505:android:5d44717c185814b4",
+        "android_client_info": {
+          "package_name": "com.giftoholics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687867635505-nt80lv22lbu6vfll91s7imhv3uktjsab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.giftoholics",
+            "certificate_hash": "ac057f05497a34dbbcef4b25c6ff83ddc3243a33"
+          }
+        },
+        {
+          "client_id": "687867635505-qttmslhf0q4gnr7pnmb4ohs15j9hjmgt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD81VGUBhwKfvT8WzrNQElHzupG4TXeBDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687867635505-qttmslhf0q4gnr7pnmb4ohs15j9hjmgt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
