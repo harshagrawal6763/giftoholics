@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme"
+    tools:context=".SignInActivity">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/emailLayout"
+        android:textColorHint="@android:color/black"
+
+        android:layout_marginStart="@dimen/spacing.xlarge"
+        android:layout_marginEnd="@dimen/spacing.xlarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:textColor="@android:color/black"
+        android:hint="@string/signin_email"
+        android:inputType="textEmailAddress"
+       />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordLayout"
+        android:layout_marginStart="@dimen/spacing.xlarge"
+        android:layout_marginEnd="@dimen/spacing.xlarge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLayout"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/signin_password"
+        android:id="@+id/txtPassword"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"
+        />
+
+
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="@string/signin_login"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/spacing.medium"
+        android:background="@android:color/black"
+        android:textColor="@color/colorTheme"/>
+</android.support.constraint.ConstraintLayout>
